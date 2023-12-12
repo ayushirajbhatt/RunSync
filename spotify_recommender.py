@@ -1,7 +1,11 @@
 favorite_artists=['confetti', 'nf', 'bakermat', 'stellar']
 
-client_id='48ac60a7430d4a75aececc8647727c0b'
-client_secret='0be38f2b00ac490a986707d530ccce47'
+# client_id = ADD YOUR SPOTIFY ID
+# client_secret = ADD YOUR SPOTIFY KEY
+redirect_uri='https://localhost'
+
+spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(
+    client_id=client_id, client_secret=client_secret))
 redirect_uri='https://localhost'
 
 ## -------- Code below --------- ##
