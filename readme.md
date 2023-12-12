@@ -27,7 +27,7 @@ This project focuses on harnessing biometric signals, including Heart Rate (HR),
   - **Resource File**: The cover image for the final playlist.
 
 ## Results
-This BioSensory Computing project marks an essential first step towards a comprehensive bio-signal-based music recommendation system. Our deliverable is a Python notebook that adeptly processes biometric data from wearable devices to create customized playlists. This algorithm considers age, real-time and target heart rate zones (using Karvonen’s formula), and running pace to enhance the running experience. Check out our [Sample Playlist](https://open.spotify.com/playlist/3AI3A2vA2FJ0zLmkQQpjqB) generated from real workout data.
+This BioSensory Computing project marks an essential first step towards a comprehensive bio-signal-based music recommendation system. Our deliverable is a Python notebook that adeptly processes biometric data from wearable devices to create customized playlists. This algorithm considers age, heart rate and target heart rate zones (using Karvonen’s formula), and running pace to enhance the running experience. Check out our [Sample Playlist](https://open.spotify.com/playlist/3AI3A2vA2FJ0zLmkQQpjqB) generated from real workout data.
 
 ## Model Design
 Our model seamlessly integrates data extraction from Apple Health XML files with Spotify's streaming service to generate user-specific playlists. 
